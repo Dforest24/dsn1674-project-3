@@ -32,8 +32,6 @@ header p {
   margin: 0;
   text-shadow: 1px 1px 5px black;
 }
-}
-
 .banner{
 	position: relative;
 	width: 100%;
@@ -49,3 +47,27 @@ header p {
 	color: white;
 	font-style: italic;
  	text-shadow: 1px 1px 5px black;
+ }
+ nav li {
+ 	background-color: #222;
+ 	display: inline;
+ 	width: 50%;
+ 	float: left;
+ 	padding: .5em;
+ 	border-bottom: 1px solid black;
+ 	border-right: 1px solid black;
+ }
+ nav ol {
+ 	margin: 0;
+ 	padding: 0;
+ 	border-top: 1px solid black;
+ 	border-left: 1px solid black;
+ 	overflow: hidden;
+ }
+ a {
+ 	text-decoration: none;
+ 	color: white;
+ }
+ main p{
+ 	margin: 1em .5em;
+ }
