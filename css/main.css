@@ -7,3 +7,28 @@ html{
 }
 body {
 	margin: 0;
+  }
+header {
+  background-color: #e7001d;
+	padding: 1rem 0;
+	color: white;
+	position: relative;
+	text-align: center;
+}
+header img {
+	width: 65px;
+	position: absolute;
+	left: calc(50% - 32.5px);
+}
+header h1 {
+	margin: 0;
+  position: relative;
+  text-shadow: 1px 1px 5px black;
+}
+header p {
+	font-size: 10px;
+  position: relative;
+  top: 3px;
+  margin: 0;
+  text-shadow: 1px 1px 5px black;
+}
