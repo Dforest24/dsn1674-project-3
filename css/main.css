@@ -9,7 +9,7 @@ body {
 	margin: 0;
   }
 header {
-  background-color: #e7001d;
+  background-color: #FFFFFF;
 	padding: 1rem 0;
 	color: white;
 	position: relative;
@@ -32,3 +32,20 @@ header p {
   margin: 0;
   text-shadow: 1px 1px 5px black;
 }
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.banner h1{
+	position: absolute;
+	bottom: .3em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-style: italic;
+ 	text-shadow: 1px 1px 5px black;
