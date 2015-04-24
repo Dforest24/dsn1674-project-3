@@ -10,7 +10,7 @@ body {
   }
 header {
   background-color: #FFFFFF;
-	padding: 7rem 0;
+	padding: 2rem 0;
 	color: black;
 	position: relative;
 	text-align: center;
@@ -25,11 +25,10 @@ header h1 {
   position: relative;
 }
 header p {
-	font-size: 10px;
   position: relative;
   top: 3px;
-  margin: 0;
-  text-shadow: 1px 1px 5px black;
+  clear: left;
+ font-size: 10.5px;
 }
 .banner{
 	position: relative;
@@ -40,14 +39,15 @@ header p {
 }
 .banner h1{
 	position: absolute;
-	bottom: .3em;
+	bottom: .5em;
 	text-align: center;
 	width: 100%;
-	color: white;
-	font-style: italic;
- 	text-shadow: 1px 1px 5px black;
+	color: 000000;
  }
 
+ .banner p {
+ 	 clear: left;
+   font-size: 10.5px;
  }
 nav ol{
 	margin: 0;
@@ -69,6 +69,12 @@ nav ul{
 
  main p{
  	margin: 1em .5em;
+ }
+
+ h3 {
+   background-color: #000000;
+ text-align: center;
+ color: white
  }
 
 }
