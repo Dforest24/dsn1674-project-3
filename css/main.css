@@ -86,12 +86,11 @@ nav ul{
 
 .brunch p {
 	 clear: left;
-  font-size: 11px;
+  font-size: 10.5px;
 }
 
 .dinner img {
   width: 65px;
-	position: absolute;
 	left: calc(50% - 32.5px);
 }
 
@@ -102,5 +101,5 @@ nav ul{
 }
 .dinner p {
 	 clear: left;
-  font-size: 11px;
+  font-size: 10.5px;
 }
