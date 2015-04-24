@@ -77,11 +77,10 @@ nav ul{
  color: white
  }
 
-}
 .brunch img {
   width: 65px;
-	position: absolute;
-	left: calc(50% - 32.5px);
+  position: relative;
+	width: 100%;
 }
 
 .brunch {
@@ -97,7 +96,8 @@ nav ul{
 
 .dinner img {
   width: 65px;
-	left: calc(50% - 32.5px);
+  position: relative;
+	width: 100%;
 }
 
 .dinner {
