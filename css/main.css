@@ -11,7 +11,7 @@ body {
 header {
   background-color: #FFFFFF;
 	padding: 1rem 0;
-	color: white;
+	color: black;
 	position: relative;
 	text-align: center;
 }
@@ -23,7 +23,6 @@ header img {
 header h1 {
 	margin: 0;
   position: relative;
-  text-shadow: 1px 1px 5px black;
 }
 header p {
 	font-size: 10px;
@@ -48,26 +47,43 @@ header p {
 	font-style: italic;
  	text-shadow: 1px 1px 5px black;
  }
- nav li {
- 	background-color: #222;
- 	display: inline;
- 	width: 50%;
- 	float: left;
- 	padding: .5em;
- 	border-bottom: 1px solid black;
- 	border-right: 1px solid black;
+
  }
- nav ol {
- 	margin: 0;
- 	padding: 0;
- 	border-top: 1px solid black;
- 	border-left: 1px solid black;
- 	overflow: hidden;
- }
- a {
- 	text-decoration: none;
- 	color: white;
- }
+nav ol{
+	margin: 0;
+	padding: 0;
+}
+nav li a {
+	background-color: #000000;
+	text-decoration: none;
+	color: white;
+	padding: .3em 1.7em;
+  flat: left
+}
+nav ul{
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+	padding: 0;
+}
+
  main p{
  	margin: 1em .5em;
  }
+
+}
+.brunch img {
+  width: 65px;
+	position: absolute;
+	left: calc(50% - 32.5px);
+
+}
+.brunch {
+	background-color: #FFFFFF;
+	padding: .5em;
+	text-align: center;
+}
+.brunch p {
+	 clear: left;
+  font-size: 11px;
+}
