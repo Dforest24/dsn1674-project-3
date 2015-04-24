@@ -76,14 +76,31 @@ nav ul{
   width: 65px;
 	position: absolute;
 	left: calc(50% - 32.5px);
-
 }
+
 .brunch {
 	background-color: #FFFFFF;
 	padding: .5em;
 	text-align: center;
 }
+
 .brunch p {
+	 clear: left;
+  font-size: 11px;
+}
+
+.dinner img {
+  width: 65px;
+	position: absolute;
+	left: calc(50% - 32.5px);
+}
+
+.dinner {
+	background-color: #FFFFFF;
+	padding: .5em;
+	text-align: center;
+}
+.dinner p {
 	 clear: left;
   font-size: 11px;
 }
